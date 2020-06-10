@@ -6,8 +6,8 @@
     {
       "label": "echo",
       "type": "shell",
-      "command": "g++ -g hello.cpp -o hello",
-      "problemMatcher": "$gcc",
+      "command": "g++ -g hello.cpp -o hello && ./hello",
+      "problemMatcher": ["$gcc"],
       "group": {
         "kind": "build",
         "isDefault": true
